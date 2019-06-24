@@ -1,0 +1,10 @@
+[alias]
+st = status
+co = checkout
+cm = commit
+br = branch
+[pager]
+	branch = cat
+[user]
+	name = Kenichi Hasegawa
+	email = kenichi.hasegawa@dena.com

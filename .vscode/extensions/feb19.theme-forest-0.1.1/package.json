@@ -1,0 +1,26 @@
+{
+	"name": "theme-forest",
+	"displayName": "Forest",
+	"description": "Theme for VSCode",
+	"version": "0.1.1",
+	"repository": "https://github.com/feb19/theme-forest",
+	"publisher": "feb19",
+	"license": "MIT",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Forest",
+				"uiTheme": "vs-dark",
+				"path": "./themes/forest-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "be8862b1-a14a-4ba3-8d9b-1e304dbc95f9",
+		"publisherId": "17ee4e6b-6abc-4c6e-babe-7148ff23354f",
+		"publisherDisplayName": "feb19"
+	}
+}
