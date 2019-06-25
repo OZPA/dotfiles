@@ -10,6 +10,7 @@ for f in .??*
 do
     #無視したいファイルやディレクトリ
     [ "$f" = ".git" ] && continue
+    [ "$f" = ".gitignore" ] && continue
     [ "$f" = ".config" ] && continue
     ln -snfv ${DOT_DIRECTORY}/${f} ${HOME}/${f}
 done
