@@ -94,10 +94,6 @@ initialize() {
       ;;
   esac
 
-  if [ ! -d $HOME/.cargo ]; then
-    curl https://sh.rustup.rs -sSf | sh -s -- -y
-  fi
-
   echo "$(tput setaf 2)Initialize complete!. ✔︎$(tput sgr0)"
 }
 
