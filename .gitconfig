@@ -3,6 +3,7 @@ st = status
 co = checkout
 cm = commit
 br = branch
+cmm = commit -m
 [pager]
 	branch = cat
 [user]
