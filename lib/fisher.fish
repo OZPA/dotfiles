@@ -12,5 +12,7 @@ if functions -q fisher
   fisher add \
     oh-my-fish/theme-agnoster \
     0rax/fish-bd \
-    oh-my-fish/plugin-peco
+    oh-my-fish/plugin-peco \
+    yoshiori/fish-peco_select_ghq_repository \
+    jethrokuan/z
 end
