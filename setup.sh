@@ -109,8 +109,15 @@ initialize() {
   echo "$(tput setaf 2)Initialize complete!. ✔︎$(tput sgr0)"
 }
 
-update() {
+brew_update() {
   brew bundle dump -f
+  echo "Update Brewfile!"
+}
+
+fisher_update() {
+  set +e
+
+  run_fisher
 }
 
 command=$1
@@ -123,8 +130,11 @@ case $command in
   init*)
     initialize
     ;;
-  update)
-    update
+  brew_update)
+    brew_update
+    ;;
+  fisher_update)
+    fisher_update
     ;;
   *)
     usage
