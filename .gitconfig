@@ -1,11 +1,16 @@
 [alias]
-st = status
-co = checkout
-cm = commit
-br = branch
-cmm = commit -m
+  st = status
+  co = checkout
+  cm = commit
+  br = branch
+  ad = add
+  cmm = commit -m
+  diffc = diff --cached
+  df = diff --no-prefix
+
 [pager]
 	branch = cat
+
 [user]
 	name = Kenichi Hasegawa
 	email = kenichi.hasegawa@dena.com
