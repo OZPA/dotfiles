@@ -12,5 +12,5 @@ if functions -q fisher
   fisher add \
     oh-my-fish/theme-agnoster \
     0rax/fish-bd \
-    oh-my-fish/plugin-peco \
+    oh-my-fish/plugin-peco
 end
