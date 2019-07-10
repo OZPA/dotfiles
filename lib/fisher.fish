@@ -13,6 +13,7 @@ if functions -q fisher
     oh-my-fish/theme-agnoster \
     0rax/fish-bd \
     oh-my-fish/plugin-peco \
+    oh-my-fish/plugin-balias \
     yoshiori/fish-peco_select_ghq_repository \
     jethrokuan/z
 end
