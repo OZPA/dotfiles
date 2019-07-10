@@ -80,9 +80,12 @@ link_files() {
   ## config.fish
   conf_dest=".config/fish/config.fish"
   conf_src="config.fish"
+  fisv_dest=".config/fish/fish_variables"
+  fisv_src="fish/fish_variables"
 
   [ -n "${OVERWRITE}" -a -e ${HOME}/${conf_dest} ] && rm -f ${HOME}/${conf_dest}
   ln -snfv ${DOT_DIRECTORY}/${conf_src} ${HOME}/${conf_dest}
+  ln -snfv ${DOT_DIRECTORY}/${fisv_src} ${HOME}/${fisv_dest}
 
   echo $(tput setaf 2)Deploy dotfiles complete!. ✔︎$(tput sgr0)
 }
