@@ -107,6 +107,19 @@ link_files() {
     fi
   done
 
+  ## bin
+  bin_dest="/usr/local/bin"
+  bin_src="bin"
+  cd ${DOT_DIRECTORY}/${bin_src}
+  for f in *
+  do
+    [ -n "${OVERWRITE}" -a -e ${bin_dest}/${f} ] && rm -f ${bin_dest}/${f}
+    if [ ! -e ${bin_dest}/${f} ]; then
+
+      ln -snfv ${DOT_DIRECTORY}/${bin_src}/${f} ${bin_dest}/${f}
+    fi
+  done
+
   echo $(tput setaf 2)Deploy dotfiles complete! ✔︎$(tput sgr0)
 }
 
