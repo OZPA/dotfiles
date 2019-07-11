@@ -77,14 +77,17 @@ link_files() {
     fi
   done
 
-  ## config.fish
+  ## fish deploy
   conf_dest=".config/fish/config.fish"
   conf_src="config.fish"
-  fisv_dest=".config/fish/fish_variables"
-  fisv_src="fish/fish_variables"
 
   [ -n "${OVERWRITE}" -a -e ${HOME}/${conf_dest} ] && rm -f ${HOME}/${conf_dest}
   ln -snfv ${DOT_DIRECTORY}/${conf_src} ${HOME}/${conf_dest}
+
+  fisv_dest=".config/fish/fish_variables"
+  fisv_src="fish/fish_variables"
+
+  [ -n "${OVERWRITE}" -a -e ${HOME}/${fisv_dest} ] && rm -f ${HOME}/${fisv_dest}
   ln -snfv ${DOT_DIRECTORY}/${fisv_src} ${HOME}/${fisv_dest}
 
   echo $(tput setaf 2)Deploy dotfiles complete!. ✔︎$(tput sgr0)
@@ -93,7 +96,20 @@ link_files() {
 initialize() {
   # ignore shell execution error temporarily
   set +e
+  echo '
 
+            .ggg[                                .JNNNN, .gggm  (ggg[
+            (MMMF                    MMMM       .MMMMMM] .MMMM  JMMM]
+            (MMMF                    MMMM       MMMM\           JMMM]
+   ..MMMMMNa(MMMF    .JMMMMMMNa,   dMMMMMMMM] (MMMMMMMM] .MMM#  JMMM]    .dMMMMMNa,    .(MMMMMMN&.
+  .MMMMMHWMMMMMMF  .dMMMMMHMMMMMh. dMMMMMMMM\ (MMMMMMMM% .MMM#  JMMM]  .MMMM#""MMMMp   MMM#"""MMF
+ .MMMM3    .MMMMF  MMMM3     TMMMb   MMMM       MMMM:    .MMM#  JMMM]  MMMM`    4MMM; .MMMN,,
+ ,MMMF      -MMMF .MMMF       MMMM.  MMMM       MMMM:    .MMM#  JMMM] .MMMMMMMMMMMMMF  ?MMMMMMNa,
+ ,MMMN      JMMMF .MMMN.     .MMMM   MMMM       MMMM:    .MMM#  JMMM] ,MMM#"""""""""^     7THMMMM]
+  WMMMNJ...dMMMMF  ?MMMNJ....MMMM%   MMMMJ..,   MMMM:    .MMM#  JMMM]  4MMMm,  ..gJ    JN..  .MMMF
+   7MMMMMMMM4MMMF   ,HMMMMMMMMMB!    4MMMMMM)   MMMM:    .MMM#  JMMM]   ?MMMMMMMMMM"  TMMMMMMMMM#`
+     .""""! ,"""^      ?"""""!        .""""^    7"""`     """"  ("""^      7T""""!       ?"""""`
+'
   case ${OSTYPE} in
     darwin*)
       run_brew
@@ -116,8 +132,8 @@ brew_update() {
 
 fisher_update() {
   set +e
-
   run_fisher
+  echo "Update fisher!"
 }
 
 command=$1
