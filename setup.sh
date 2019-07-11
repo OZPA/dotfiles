@@ -60,7 +60,7 @@ source ./lib/brew.sh
 source ./lib/fisher.sh
 
 link_files() {
-  echo "link home directory dotfiles"
+  echo "Link home directory dotfiles"
   cd ${DOT_DIRECTORY}
   for f in .??*
   do
@@ -69,28 +69,45 @@ link_files() {
     [[ ${f} = ".gitignore" ]] && continue
     [[ ${f} = ".editorconfig" ]] && continue
 
-    # Force remove the vim directory if it's already there
     [ -n "${OVERWRITE}" -a -e ${HOME}/${f} ] && rm -f ${HOME}/${f}
     if [ ! -e ${HOME}/${f} ]; then
-
       ln -snfv ${DOT_DIRECTORY}/${f} ${HOME}/${f}
     fi
   done
 
   ## fish deploy
+  ### config.fish
   conf_dest=".config/fish/config.fish"
   conf_src="config.fish"
 
   [ -n "${OVERWRITE}" -a -e ${HOME}/${conf_dest} ] && rm -f ${HOME}/${conf_dest}
-  ln -snfv ${DOT_DIRECTORY}/${conf_src} ${HOME}/${conf_dest}
+  if [ ! -e ${HOME}/${conf_dest} ]; then
+    ln -snfv ${DOT_DIRECTORY}/${conf_src} ${HOME}/${conf_dest}
+  fi
 
+  ### fish_variables
   fisv_dest=".config/fish/fish_variables"
   fisv_src="fish/fish_variables"
 
   [ -n "${OVERWRITE}" -a -e ${HOME}/${fisv_dest} ] && rm -f ${HOME}/${fisv_dest}
-  ln -snfv ${DOT_DIRECTORY}/${fisv_src} ${HOME}/${fisv_dest}
+  if [ ! -e ${HOME}/${fisv_dest} ]; then
+    ln -snfv ${DOT_DIRECTORY}/${fisv_src} ${HOME}/${fisv_dest}
+  fi
 
-  echo $(tput setaf 2)Deploy dotfiles complete!. ✔︎$(tput sgr0)
+  ### fish functions
+  fisf_dest=".config/fish/functions"
+  fisf_src="fish/functions"
+  cd ${DOT_DIRECTORY}/${fisf_src}
+  for f in *
+  do
+    [ -n "${OVERWRITE}" -a -e ${HOME}/${fisf_dest}/${f} ] && rm -f ${HOME}/${fisf_dest}/${f}
+    if [ ! -e ${HOME}/${fisf_dest}/${f} ]; then
+
+      ln -snfv ${DOT_DIRECTORY}/${fisf_src}/${f} ${HOME}/${fisf_dest}/${f}
+    fi
+  done
+
+  echo $(tput setaf 2)Deploy dotfiles complete! ✔︎$(tput sgr0)
 }
 
 initialize() {
