@@ -20,6 +20,7 @@ git clone https://github.com/OZPA/dotfiles.git ~/dotfiles
 インストールされるのは以下。
 * dotfiles
 * Homebrew & tap,cask
+* fish & fisher
 
 ```
 bash ~/dotfiles/setup.sh initialize
@@ -39,6 +40,20 @@ bash ~/dotfiles/setup.sh -f deploy
 ---
 
 ## Other
+### Update
+
+#### Homebrewのアップデート（Brewfileの上書きを忘れないこと）
+```
+# brew install or cask or tap
+bash ~/dotfiles/setup.sh brew_update
+```
+
+#### fisherのアップデート
+```
+# fisher.fish にpluginを記述後
+bash ~/dotfiles/setup.sh fisher_update
+```
+
 ### iTerm2の設定ファイル
 `com.googlecode.iterm2.plist` が設定ファイル。
 iTerm2 の Preferences -> General -> Preferences ->Load Preferences from a custom folder or URL にチェックを入れ、dotfilesディレクトリにある `com.googlecode.iterm2.plist` を指定する。

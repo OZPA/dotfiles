@@ -161,7 +161,6 @@ brew_update() {
 }
 
 fisher_update() {
-  set +e
   run_fisher
   echo "Update fisher!"
 }
