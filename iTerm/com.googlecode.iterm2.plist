@@ -5401,7 +5401,7 @@
 	<key>HideMenuBarInFullscreen</key>
 	<true/>
 	<key>HideTab</key>
-	<false/>
+	<true/>
 	<key>HideTabCloseButton</key>
 	<false/>
 	<key>HideTabNumber</key>
@@ -5482,7 +5482,7 @@
 	<key>NSWindow Frame com.apple.typography_panel_RictyForPowerline-Regular</key>
 	<string>296 324 260 294 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>45 83 1610 900 0 0 1680 1027 </string>
+	<string>0 0 1610 877 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>73 382 1050 645 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -6885,7 +6885,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>558255342.68587697</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>586432105.64336205</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -7643,6 +7643,8 @@
 	<integer>3</integer>
 	<key>URLHandlersByGuid</key>
 	<dict/>
+	<key>UseLionStyleFullscreen</key>
+	<true/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>WindowNumber</key>
