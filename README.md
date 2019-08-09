@@ -42,9 +42,8 @@ bash ~/dotfiles/setup.sh -f deploy
 ## Other
 ### Update
 
-#### Homebrewのアップデート（Brewfileの上書きを忘れないこと）
+#### Homebrewのアップデート（Brewfileの上書き）
 ```
-# brew install or cask or tap
 bash ~/dotfiles/setup.sh brew_update
 ```
 
