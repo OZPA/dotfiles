@@ -10,6 +10,7 @@
     "hyper-material-vibrancy": "latest",
     "hyper-search": "latest",
     "hyper-tab-icons": "latest",
-    "hyperborder": "latest"
+    "hyperborder": "latest",
+    "hyper-statusline": "latest"
   }
 }

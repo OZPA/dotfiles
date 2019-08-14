@@ -151,6 +151,7 @@ module.exports = {
     "hyper-search",
     "hyper-tab-icons",
     "hyperborder",
+    "hyper-statusline",
     // "hyper-imgcat"
   ],
 
