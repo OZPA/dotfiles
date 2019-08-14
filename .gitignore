@@ -1,1 +1,6 @@
 .DS_Store
+
+# hyper
+.hyper_plugins/cache/
+.hyper_plugins/node_modules/
+.hyper_plugins/yarn-error.log
