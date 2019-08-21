@@ -43,7 +43,7 @@ module.exports = {
 
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: '#000',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
 
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
@@ -151,8 +151,12 @@ module.exports = {
     "hyper-search",
     "hyper-tab-icons",
     "hyperborder",
+    "hyper-opacity"
     // "hyper-imgcat"
   ],
+
+  // opacity
+  opacity:0.85,
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
