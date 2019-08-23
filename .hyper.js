@@ -4,6 +4,10 @@
 
 module.exports = {
   config: {
+
+    // opacity
+    opacity:0.92,
+
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
     updateChannel: 'stable',
@@ -154,9 +158,6 @@ module.exports = {
     "hyper-opacity"
     // "hyper-imgcat"
   ],
-
-  // opacity
-  opacity:0.85,
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
