@@ -19,6 +19,7 @@ brew "yarn"
 brew "sanemat/font/ricty", args: ["with-powerline"]
 cask "alfred"
 cask "appcleaner"
+cask "bitwarden"
 cask "cyberduck"
 cask "firefox"
 cask "google-japanese-ime"
