@@ -56,3 +56,9 @@ bash ~/dotfiles/setup.sh fisher_update
 ### iTerm2の設定ファイル
 `com.googlecode.iterm2.plist` が設定ファイル。
 iTerm2 の Preferences -> General -> Preferences ->Load Preferences from a custom folder or URL にチェックを入れ、dotfilesディレクトリにある `com.googlecode.iterm2.plist` を指定する。
+
+---
+
+## After Install
+### Clipy
+`lib/clipy/snippets.xml` をclipyに反映

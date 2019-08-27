@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>MJ</title>
+		<snippets>
+			<snippet>
+				<title>新個人環境（0444）</title>
+				<content>ssh -A mjsys@gwdev0444.svr.commondev.local</content>
+			</snippet>
+			<snippet>
+				<title>dev環境ssh</title>
+				<content>ssh -A mjsys@10.66.35.13</content>
+			</snippet>
+			<snippet>
+				<title>devアップ コマンド</title>
+				<content>git pull; bin/mj_carton install --deployment; dist-project lib/MJ static/assets/ static/indies/ src/ tmpl/ script/ psgi/ local/ config/ -x; bin/mj_all_restart</content>
+			</snippet>
+			<snippet>
+				<title>02環境ssh</title>
+				<content>ssh -A mjsys@mjwdev0002.svr.commondev.local</content>
+			</snippet>
+			<snippet>
+				<title>DB</title>
+				<content>`bin/mj_perl script/tool/mysqlcon MJ_W`</content>
+			</snippet>
+			<snippet>
+				<title>debug_time</title>
+				<content>?debug_time=201501090000</content>
+			</snippet>
+			<snippet>
+				<title>js minify</title>
+				<content>java -jar ~/repos/yuicompressor/build/yuicompressor-2.4.8.jar hoge.js -o hoge.min.js</content>
+			</snippet>
+			<snippet>
+				<title>アップデートサーバー</title>
+				<content>~/mj/script/devtools/update_mj_server.sh</content>
+			</snippet>
+			<snippet>
+				<title>データサーバ再起動</title>
+				<content>bin/mj_perl ./script/devtools/update_mj_server.sh</content>
+			</snippet>
+			<snippet>
+				<title>Static生成</title>
+				<content>for param in $(grep -e &apos;local&apos; ~/mj/log/static_hash_from.info.log.$(date &quot;+%Y%m%d&quot;) | cut -d&quot;/&quot; -f12 | cut -d&quot;.&quot; -f1 | sort | uniq); do bin/mj_perl script/batch/magazine/static_magazine_builder.pl $(echo $param | sed -e &apos;s/_/ /g&apos;); done;</content>
+			</snippet>
+			<snippet>
+				<title>sudo svc -h /service/*</title>
+				<content>sudo svc -h /service/*</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Daily</title>
+		<snippets>
+			<snippet>
+				<title>ssh-add</title>
+				<content>ssh-add -K ~/.ssh/id_rsa</content>
+			</snippet>
+			<snippet>
+				<title>日報</title>
+				<content>【日報】/ 長谷川健一
+
+お疲れ様です。本日の日報です。
+
+-------------------------------
+本日の業務内容
+-------------------------------
+
+【マンガボックス】
+・QA対応
+・俺のピココンコンテストLPコーディング
+
+【Anyca】
+・環境構築
+・Anyca オーナーLPコーディング（SP）
+
+【その他】
+・1on1（眞崎さん）
+
+
+-------------------------------
+翌営業日の業務内容
+-------------------------------
+
+・Anyca オーナーLPコーディング（SP）
+・MJ ピココンコンテストLP QA対応、デザインMTG
+
+-------------------------------
+その他
+-------------------------------
+
+本日より日報提出します、よろしくお願いします。
+スキルアップのためのプライベートワークに関しては後日相談の時間を頂いて詰めていきたいと思います。
+
+
+以上、よろしくお願いいたします。</content>
+			</snippet>
+			<snippet>
+				<title>週報</title>
+				<content>【週報】/ 長谷川健一
+
+お疲れ様です。今週の週報です。
+
+-------------------------------
+今週の業務内容
+-------------------------------
+
+【マンガボックス】
+・QA対応
+・俺のピココンコンテストLPコーディング
+
+【Anyca】
+・環境構築
+・Anyca オーナーLPコーディング（SP）
+
+【その他】
+・1on1（眞崎さん）
+
+
+-------------------------------
+翌週の主な業務内容
+-------------------------------
+
+・Anyca オーナーLPコーディング（SP）
+・MJ ピココンコンテストLP QA対応、デザインMTG
+
+-------------------------------
+その他
+-------------------------------
+
+以上、よろしくお願いいたします。</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>MAL</title>
+		<snippets>
+			<snippet>
+				<title>個人環境</title>
+				<content>ssh alsys@gwdev0096.svr.commondev.local</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>iTerm</title>
+		<snippets>
+			<snippet>
+				<title>SimpleHTTPServer</title>
+				<content>python -m SimpleHTTPServer 8888</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>mail</title>
+		<snippets>
+			<snippet>
+				<title>dena.com</title>
+				<content>kenichi.hasegawa@dena.com</content>
+			</snippet>
+			<snippet>
+				<title>dena.jp</title>
+				<content>kenichi.hasegawa@dena.jp</content>
+			</snippet>
+			<snippet>
+				<title>hase0023@gmail.com</title>
+				<content>hase0023@gmail.com</content>
+			</snippet>
+			<snippet>
+				<title>Gmail署名</title>
+				<content>ーーーーーーーーーーーーーーーーーーーーーーーーー
+
+OZPA
+
+BLOG:「OZPAの表4（おつぱのひょうよん）」http://ozpa-h4.com
+mail:info@ozpa-h4.com
+gmail:hase0023@gmail.com
+twitter:http://www.twitter.com/ozpa
+facebook:http://www.facebook.com/kenichi.hasegawa.52
+
+ーーーーーーーーーーーーーーーーーーーーーーーーー
+
+著書
+『あっという間に月25万PVをかせぐ人気ブログのつくり方」
+http://goo.gl/2bhgU
+
+『今すぐ使えるかんたんmini iPhone得する情報整理ワザ』
+http://goo.gl/XZ6zj
+
+ーーーーーーーーーーーーーーーーーーーーーーーーー</content>
+			</snippet>
+			<snippet>
+				<title>お世話になっております</title>
+				<content>お世話になっております。
+株式会社ディー・エヌ・エーの長谷川です。</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Usual</title>
+		<snippets>
+			<snippet>
+				<title>placeholder</title>
+				<content>http://via.placeholder.com/350x150</content>
+			</snippet>
+			<snippet>
+				<title>しんやめ</title>
+				<content>ラジオネーム：ぱつお
+東京都目黒区目黒本町6-15-18-102
+080-3203-6690
+長谷川健一</content>
+			</snippet>
+			<snippet>
+				<title>Google</title>
+				<content>guqftjcnBiXoHitdUz6ngpwWQf6CY</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>tel/address</title>
+		<snippets>
+			<snippet>
+				<title>tel</title>
+				<content>08032036690</content>
+			</snippet>
+			<snippet>
+				<title>address</title>
+				<content>152-0002
+東京都目黒区目黒本町6-15-18
+プランドールメゾン参番館102</content>
+			</snippet>
+			<snippet>
+				<title>DeNA tel</title>
+				<content>03-4366-7253</content>
+			</snippet>
+			<snippet>
+				<title>DeNA address </title>
+				<content>150-8510 東京都渋谷区渋谷2-21-1 渋谷ヒカリエ</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Color</title>
+		<snippets>
+			<snippet>
+				<title>MJ_Main</title>
+				<content>379ABC</content>
+			</snippet>
+			<snippet>
+				<title>MJ_Store</title>
+				<content>72C8C6</content>
+			</snippet>
+			<snippet>
+				<title>MJ_Pink</title>
+				<content>F07190</content>
+			</snippet>
+			<snippet>
+				<title>MJ_Yellow</title>
+				<content>FFCD00</content>
+			</snippet>
+			<snippet>
+				<title>MJ_Red</title>
+				<content>DF361B</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>デザ本</title>
+		<snippets>
+			<snippet>
+				<title>所属</title>
+				<content>デザイン本部 サービスデザイン部 第1グループ</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
