@@ -154,9 +154,8 @@ module.exports = {
     "hyper-material-vibrancy",
     "hyper-search",
     "hyper-tab-icons",
-    "hyperborder",
+    // "hyperborder",
     "hyper-opacity"
-    // "hyper-imgcat"
   ],
 
   // in development, you can create a directory under
