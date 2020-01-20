@@ -17,6 +17,7 @@ brew "tig"
 brew "vim"
 brew "yarn"
 brew "sanemat/font/ricty", args: ["with-powerline"]
+brew "ripgrep"
 cask "alfred"
 cask "appcleaner"
 cask "bitwarden"
