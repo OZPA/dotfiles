@@ -16,3 +16,4 @@ end
 # alias
 balias g git
 balias nbrew nodebrew
+eval (hub alias -s)
