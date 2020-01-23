@@ -7,6 +7,8 @@
   cmm = commit -m
   diffc = diff --cached
   df = diff --no-prefix
+  pr = pull-request
+  see = browse
 
 [pager]
 	branch = cat
