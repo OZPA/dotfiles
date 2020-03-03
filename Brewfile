@@ -24,6 +24,7 @@ brew "sanemat/font/ricty", args: ["with-powerline"]
 cask "alfred"
 cask "appcleaner"
 cask "bitwarden"
+cask "boostnote"
 cask "clipy"
 cask "cyberduck"
 cask "editaro"
