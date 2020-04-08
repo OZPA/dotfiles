@@ -1,6 +1,125 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <folders>
 	<folder>
+		<title>mail</title>
+		<snippets>
+			<snippet>
+				<title>dena.com</title>
+				<content>kenichi.hasegawa@dena.com</content>
+			</snippet>
+			<snippet>
+				<title>dena.jp</title>
+				<content>kenichi.hasegawa@dena.jp</content>
+			</snippet>
+			<snippet>
+				<title>hase0023@gmail.com</title>
+				<content>hase0023@gmail.com</content>
+			</snippet>
+			<snippet>
+				<title>Gmail署名</title>
+				<content>ーーーーーーーーーーーーーーーーーーーーーーーーー
+
+OZPA
+
+BLOG:「OZPAの表4（おつぱのひょうよん）」http://ozpa-h4.com
+mail:info@ozpa-h4.com
+gmail:hase0023@gmail.com
+twitter:http://www.twitter.com/ozpa
+facebook:http://www.facebook.com/kenichi.hasegawa.52
+
+ーーーーーーーーーーーーーーーーーーーーーーーーー
+
+著書
+『あっという間に月25万PVをかせぐ人気ブログのつくり方」
+http://goo.gl/2bhgU
+
+『今すぐ使えるかんたんmini iPhone得する情報整理ワザ』
+http://goo.gl/XZ6zj
+
+ーーーーーーーーーーーーーーーーーーーーーーーーー</content>
+			</snippet>
+			<snippet>
+				<title>堅い署名</title>
+				<content>ーーーーーーーーーーーーーーーーーーーー
+
+  長谷川 健一
+    Mail : hase0023@gmail.com
+    Tel : 080-3203-6690
+
+ーーーーーーーーーーーーーーーーーーーー</content>
+			</snippet>
+			<snippet>
+				<title>お世話になっております</title>
+				<content>お世話になっております。
+株式会社ディー・エヌ・エーの長谷川です。</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>tel/address</title>
+		<snippets>
+			<snippet>
+				<title>tel</title>
+				<content>08032036690</content>
+			</snippet>
+			<snippet>
+				<title>address</title>
+				<content>152-0002
+東京都目黒区目黒本町6-15-18
+プランドールメゾン参番館102</content>
+			</snippet>
+			<snippet>
+				<title>DeNA tel</title>
+				<content>03-4366-7253</content>
+			</snippet>
+			<snippet>
+				<title>DeNA address</title>
+				<content>150-8510 東京都渋谷区渋谷2-21-1 渋谷ヒカリエ</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Usual</title>
+		<snippets>
+			<snippet>
+				<title>placeholder</title>
+				<content>http://via.placeholder.com/350x150</content>
+			</snippet>
+			<snippet>
+				<title>しんやめ</title>
+				<content>ラジオネーム：ぱつお
+東京都目黒区目黒本町6-15-18-102
+080-3203-6690
+長谷川健一</content>
+			</snippet>
+			<snippet>
+				<title>Google</title>
+				<content>guqftjcnBiXoHitdUz6ngpwWQf6CY</content>
+			</snippet>
+			<snippet>
+				<title>moreタグ</title>
+				<content>&lt;!--more--&gt;</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>デザ本</title>
+		<snippets>
+			<snippet>
+				<title>所属</title>
+				<content>デザイン本部 マーケティングデザイン部 第3グループ</content>
+			</snippet>
+			<snippet>
+				<title>md-remote_日報</title>
+				<content>長谷川 業務終了しました。
+==========
+
+
+==========</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
 		<title>MJ</title>
 		<snippets>
 			<snippet>
@@ -133,122 +252,11 @@
 		</snippets>
 	</folder>
 	<folder>
-		<title>MAL</title>
-		<snippets>
-			<snippet>
-				<title>個人環境</title>
-				<content>ssh alsys@gwdev0096.svr.commondev.local</content>
-			</snippet>
-		</snippets>
-	</folder>
-	<folder>
 		<title>iTerm</title>
 		<snippets>
 			<snippet>
 				<title>SimpleHTTPServer</title>
 				<content>python -m SimpleHTTPServer 8888</content>
-			</snippet>
-		</snippets>
-	</folder>
-	<folder>
-		<title>mail</title>
-		<snippets>
-			<snippet>
-				<title>dena.com</title>
-				<content>kenichi.hasegawa@dena.com</content>
-			</snippet>
-			<snippet>
-				<title>dena.jp</title>
-				<content>kenichi.hasegawa@dena.jp</content>
-			</snippet>
-			<snippet>
-				<title>hase0023@gmail.com</title>
-				<content>hase0023@gmail.com</content>
-			</snippet>
-			<snippet>
-				<title>Gmail署名</title>
-				<content>ーーーーーーーーーーーーーーーーーーーーーーーーー
-
-OZPA
-
-BLOG:「OZPAの表4（おつぱのひょうよん）」http://ozpa-h4.com
-mail:info@ozpa-h4.com
-gmail:hase0023@gmail.com
-twitter:http://www.twitter.com/ozpa
-facebook:http://www.facebook.com/kenichi.hasegawa.52
-
-ーーーーーーーーーーーーーーーーーーーーーーーーー
-
-著書
-『あっという間に月25万PVをかせぐ人気ブログのつくり方」
-http://goo.gl/2bhgU
-
-『今すぐ使えるかんたんmini iPhone得する情報整理ワザ』
-http://goo.gl/XZ6zj
-
-ーーーーーーーーーーーーーーーーーーーーーーーーー</content>
-			</snippet>
-			<snippet>
-				<title>堅い署名</title>
-				<content>ーーーーーーーーーーーーーーーーーーーー
-
-  長谷川 健一
-    Mail : hase0023@gmail.com
-    Tel : 080-3203-6690
-
-ーーーーーーーーーーーーーーーーーーーー</content>
-			</snippet>
-			<snippet>
-				<title>お世話になっております</title>
-				<content>お世話になっております。
-株式会社ディー・エヌ・エーの長谷川です。</content>
-			</snippet>
-		</snippets>
-	</folder>
-	<folder>
-		<title>Usual</title>
-		<snippets>
-			<snippet>
-				<title>placeholder</title>
-				<content>http://via.placeholder.com/350x150</content>
-			</snippet>
-			<snippet>
-				<title>しんやめ</title>
-				<content>ラジオネーム：ぱつお
-東京都目黒区目黒本町6-15-18-102
-080-3203-6690
-長谷川健一</content>
-			</snippet>
-			<snippet>
-				<title>Google</title>
-				<content>guqftjcnBiXoHitdUz6ngpwWQf6CY</content>
-			</snippet>
-			<snippet>
-				<title>moreタグ</title>
-				<content>&lt;!--more--&gt;</content>
-			</snippet>
-		</snippets>
-	</folder>
-	<folder>
-		<title>tel/address</title>
-		<snippets>
-			<snippet>
-				<title>tel</title>
-				<content>08032036690</content>
-			</snippet>
-			<snippet>
-				<title>address</title>
-				<content>152-0002
-東京都目黒区目黒本町6-15-18
-プランドールメゾン参番館102</content>
-			</snippet>
-			<snippet>
-				<title>DeNA tel</title>
-				<content>03-4366-7253</content>
-			</snippet>
-			<snippet>
-				<title>DeNA address</title>
-				<content>150-8510 東京都渋谷区渋谷2-21-1 渋谷ヒカリエ</content>
 			</snippet>
 		</snippets>
 	</folder>
@@ -274,15 +282,6 @@ http://goo.gl/XZ6zj
 			<snippet>
 				<title>MJ_Red</title>
 				<content>DF361B</content>
-			</snippet>
-		</snippets>
-	</folder>
-	<folder>
-		<title>デザ本</title>
-		<snippets>
-			<snippet>
-				<title>所属</title>
-				<content>デザイン本部 サービスデザイン部 第1グループ</content>
 			</snippet>
 		</snippets>
 	</folder>
