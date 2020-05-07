@@ -5484,7 +5484,7 @@
 	<key>NSWindow Frame com.apple.typography_panel_RictyForPowerline-Regular</key>
 	<string>296 324 260 294 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1610 877 0 0 1680 1027 </string>
+	<string>0 0 1610 877 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>73 382 1050 645 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -6173,7 +6173,7 @@
 			<key>Non-ASCII Ligatures</key>
 			<false/>
 			<key>Normal Font</key>
-			<string>RictyForPowerline-Regular 16</string>
+			<string>HackGenConsoleForPowerline-Regular 16</string>
 			<key>Open Toolbelt</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -6883,19 +6883,25 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.2.9</string>
-		<string>3.3.1</string>
-		<string>3.3.8</string>
-		<string>3.3.0</string>
-		<string>3.3.7</string>
 		<string>3.3.6</string>
+		<string>3.3.8</string>
+		<string>3.3.1</string>
+		<string>3.3.7</string>
+		<string>3.3.9</string>
+		<string>3.2.9</string>
+		<string>3.3.0</string>
+	</array>
+	<key>NoSyncBFPRecents</key>
+	<array>
+		<string>HackGen</string>
+		<string>HackGen Console for Powerline</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1680, 1050}}</string>
+		<string>{{-101, 1050}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{518, 823}</string>
+		<string>{581, 1889}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
@@ -6904,7 +6910,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>558255342.68587697</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>38</integer>
+	<integer>61</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>586432105.64336205</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -7683,13 +7689,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-02-13T09:31:42Z</date>
+	<date>2020-05-07T03:23:03Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateGroupIdentifier</key>
 	<integer>2382137517</integer>
 	<key>SUUpdateRelaunchingMarker</key>
-	<true/>
+	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -7717,7 +7723,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.8</string>
+	<string>3.3.9</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
