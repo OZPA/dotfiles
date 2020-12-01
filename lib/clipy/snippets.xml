@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <folders>
 	<folder>
+		<title>デザ本</title>
+		<snippets>
+			<snippet>
+				<title>md-remote_日報</title>
+				<content>長谷川 業務終了しました。
+==========
+
+
+==========</content>
+			</snippet>
+			<snippet>
+				<title>所属</title>
+				<content>デザイン本部 マーケティングデザイン部 第3グループ</content>
+			</snippet>
+			<snippet>
+				<title>社員番号</title>
+				<content>10010162</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
 		<title>mail</title>
 		<snippets>
 			<snippet>
@@ -10,6 +31,10 @@
 			<snippet>
 				<title>dena.jp</title>
 				<content>kenichi.hasegawa@dena.jp</content>
+			</snippet>
+			<snippet>
+				<title>denabaystars.co.jp</title>
+				<content>kenichi.hasegawa@denabaystars.co.jp</content>
 			</snippet>
 			<snippet>
 				<title>hase0023@gmail.com</title>
@@ -99,23 +124,6 @@ http://goo.gl/XZ6zj
 			<snippet>
 				<title>moreタグ</title>
 				<content>&lt;!--more--&gt;</content>
-			</snippet>
-		</snippets>
-	</folder>
-	<folder>
-		<title>デザ本</title>
-		<snippets>
-			<snippet>
-				<title>所属</title>
-				<content>デザイン本部 マーケティングデザイン部 第3グループ</content>
-			</snippet>
-			<snippet>
-				<title>md-remote_日報</title>
-				<content>長谷川 業務終了しました。
-==========
-
-
-==========</content>
 			</snippet>
 		</snippets>
 	</folder>
