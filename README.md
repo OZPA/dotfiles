@@ -62,3 +62,7 @@ iTerm2 の Preferences -> General -> Preferences ->Load Preferences from a custo
 ## After Install
 ### Clipy
 `lib/clipy/snippets.xml` をclipyに反映
+
+
+## 注意事項
+`brew cask` が動かなくなる（ `brew install cask ~` が推奨になる）のでどこかで直す
