@@ -9,7 +9,7 @@ if not functions -q fisher
 end
 
 if functions -q fisher
-  fisher add \
+  fisher install \
     oh-my-fish/theme-agnoster \
     0rax/fish-bd \
     oh-my-fish/plugin-peco \
