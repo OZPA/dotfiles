@@ -63,6 +63,9 @@ iTerm2 の Preferences -> General -> Preferences ->Load Preferences from a custo
 ### Clipy
 `lib/clipy/snippets.xml` をclipyに反映
 
+### Google日本語入力
+`lib/Google日本語入力/OZPA_dic.txt` をGoogle日本語入力の辞書に反映
+
 
 ## 注意事項
 * `brew cask` が動かなくなる（ `brew install cask ~` が推奨になる）のでどこかで直す
