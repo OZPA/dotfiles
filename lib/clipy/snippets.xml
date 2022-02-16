@@ -85,21 +85,25 @@ http://goo.gl/XZ6zj
 		<snippets>
 			<snippet>
 				<title>tel</title>
-				<content>08032036690</content>
+				<content>080-3203-6690</content>
 			</snippet>
 			<snippet>
 				<title>address</title>
-				<content>152-0002
+				<content>〒152-0002
 東京都目黒区目黒本町6-15-18
 プランドールメゾン参番館102</content>
 			</snippet>
 			<snippet>
+				<title>BYOD tel</title>
+				<content>050-3160-2997</content>
+			</snippet>
+			<snippet>
 				<title>DeNA tel</title>
-				<content>03-4366-7253</content>
+				<content>050-3066-8034</content>
 			</snippet>
 			<snippet>
 				<title>DeNA address</title>
-				<content>150-8510 東京都渋谷区渋谷2-21-1 渋谷ヒカリエ</content>
+				<content>〒150-6140  東京都渋谷区渋谷二丁目24番12号 渋谷スクランブルスクエア</content>
 			</snippet>
 		</snippets>
 	</folder>
