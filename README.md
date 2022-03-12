@@ -40,6 +40,21 @@ bash ~/dotfiles/setup.sh -f deploy
 ---
 
 ## Other
+
+### fishへの切り替え
+```
+# fishのパスを確認
+$ which fish
+/opt/homebrew/bin/fish
+
+# 末尾に　/opt/homebrew/bin/fish を追加
+$ sudo vi /etc/shells
+
+# fishにシェル変更
+$ chsh -s /opt/homebrew/bin/fish
+```
+
+
 ### Update
 
 #### Homebrewのアップデート（Brewfileの上書き）
