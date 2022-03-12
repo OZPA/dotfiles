@@ -6,6 +6,8 @@ SETUVAR Z_DATA:/Users/kenichi\x2ehasegawa/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/Users/kenichi\x2ehasegawa/\x2elocal/share/z
 SETUVAR Z_EXCLUDE:\x5e/Users/kenichi\x2ehasegawa\x24
 SETUVAR __fish_initialized:3100
+SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_balias_files:/Users/kenichi\x2ehasegawa/\x2econfig/fish/functions/balias\x2efish
+SETUVAR _fisher_plugins:oh\x2dmy\x2dfish/plugin\x2dbalias
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:16e0b5
