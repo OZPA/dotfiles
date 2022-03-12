@@ -54,6 +54,16 @@ $ sudo vi /etc/shells
 $ chsh -s /opt/homebrew/bin/fish
 ```
 
+### imgcatが動かない時
+```
+https://iterm2.com/utilities/imgcat でシェルスクリプトを全部コピー。
+
+$ sudo vi /usr/local/bin/imgcat
+上記スクリプトをペースト＆保存
+
+# imgcatを通常コマンドとして使えるようにファイルの権限を変更
+$ sudo chmod +x /usr/local/bin/imgcat
+```
 
 ### Update
 
