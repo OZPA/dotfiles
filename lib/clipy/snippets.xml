@@ -117,6 +117,16 @@ http://goo.gl/XZ6zj
 		<title>Usual</title>
 		<snippets>
 			<snippet>
+				<title>Zoom招待</title>
+				<content>OZPA Kenichi Hasegawaのパーソナルミーティングルーム
+
+Zoomミーティングに参加する
+https://dena.zoom.us/j/2686682492
+ブラウザ参加用リンク
+https://dena.zoom.us/wc/join/2686682492
+</content>
+			</snippet>
+			<snippet>
 				<title>placeholder</title>
 				<content>http://via.placeholder.com/350x150</content>
 			</snippet>
@@ -134,6 +144,17 @@ http://goo.gl/XZ6zj
 			<snippet>
 				<title>moreタグ</title>
 				<content>&lt;!--more--&gt;</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>YDB</title>
+		<snippets>
+			<snippet>
+				<title>所属FULL</title>
+				<content>株式会社 横浜DeNAベイスターズ
+ビジネス統括本部 広報・コミュニケーション部
+クリエイティブ・コミュニケーショングループ</content>
 			</snippet>
 		</snippets>
 	</folder>
