@@ -16,6 +16,9 @@ xcode-select --install
 git clone https://github.com/OZPA/dotfiles.git ~/dotfiles
 ```
 
+## 1-2. Homebrewのインストール（M1 Mac以降）
+参考 : https://zenn.dev/ik11235/scraps/17d44ec45ea8f7
+
 ## 2. Install
 インストールされるのは以下。
 * dotfiles
