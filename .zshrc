@@ -17,6 +17,8 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH="$HOME/.yarn/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
+## M1 brew
+export PATH="/opt/homebrew/bin:$PATH"
 
 # brew caskでのインストールディレクトリ変更
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
