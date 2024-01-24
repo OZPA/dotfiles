@@ -16,7 +16,8 @@ xcode-select --install
 git clone https://github.com/OZPA/dotfiles.git ~/dotfiles
 ```
 
-## 1-2. Homebrewのインストール（M1 Mac以降）
+### 1-2. Homebrewのインストール（M1 Mac以降）
+M1以降のMacではHomebrewのインストール方法が変更されているため、下記を参考にインストール。
 参考 : https://zenn.dev/ik11235/scraps/17d44ec45ea8f7
 
 ## 2. Install
@@ -56,6 +57,10 @@ $ sudo vi /etc/shells
 # fishにシェル変更
 $ chsh -s /opt/homebrew/bin/fish
 ```
+
+### HackGen_NF のインストール
+iTermおよびプログラミング用のフォント（HackGen）をインストール。
+https://github.com/yuru7/HackGen?tab=readme-ov-file
 
 ### imgcatが動かない時
 ```
