@@ -93,7 +93,7 @@ http://goo.gl/XZ6zj
 		</snippets>
 	</folder>
 	<folder>
-		<title>デザ本</title>
+		<title>DeNA</title>
 		<snippets>
 			<snippet>
 				<title>社員番号</title>
@@ -101,7 +101,8 @@ http://goo.gl/XZ6zj
 			</snippet>
 			<snippet>
 				<title>所属</title>
-				<content>デザイン本部 マーケティングデザイン部</content>
+				<content>ソリューション本部デザイン統括部
+コミュニケーションデザイン部</content>
 			</snippet>
 			<snippet>
 				<title>md-remote_日報</title>
@@ -123,8 +124,7 @@ http://goo.gl/XZ6zj
 Zoomミーティングに参加する
 https://dena.zoom.us/j/2686682492
 ブラウザ参加用リンク
-https://dena.zoom.us/wc/join/2686682492
-</content>
+https://dena.zoom.us/wc/join/2686682492</content>
 			</snippet>
 			<snippet>
 				<title>placeholder</title>
@@ -153,8 +153,8 @@ https://dena.zoom.us/wc/join/2686682492
 			<snippet>
 				<title>所属FULL</title>
 				<content>株式会社 横浜DeNAベイスターズ
-ビジネス統括本部 広報・コミュニケーション部
-クリエイティブ・コミュニケーショングループ</content>
+コミュニケーション統括部 広報部
+クリエイティブグループ</content>
 			</snippet>
 		</snippets>
 	</folder>
