@@ -7,7 +7,7 @@ export ZSH="/Users/kenichi.hasegawa/.oh-my-zsh"
 source ~/.oh-my-zsh/themes/alien/alien.zsh
 
 # Plugins
-plugins=(
+plugins (
   git
 )
 
@@ -22,3 +22,16 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 # brew caskでのインストールディレクトリ変更
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+
+## ghqとの連携。ghqの管理化にあるリポジトリを一覧表示する。ctrl - ]にバインド。
+function peco-src () {
+  local selected_dir=$(ghq list -p | peco --prompt="repositories >" --query "$LBUFFER")
+  if [ -n "$selected_dir" ]; then
+    BUFFER="cd ${selected_dir}"
+    zle accept-line
+  fi
+  zle clear-screen
+}
+zle -N peco-src
+bindkey '^]' peco-src
