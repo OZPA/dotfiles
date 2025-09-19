@@ -32,15 +32,7 @@ twitter:http://www.twitter.com/ozpa
 facebook:http://www.facebook.com/kenichi.hasegawa.52
 
 ーーーーーーーーーーーーーーーーーーーーーーーーー
-
-著書
-『あっという間に月25万PVをかせぐ人気ブログのつくり方」
-http://goo.gl/2bhgU
-
-『今すぐ使えるかんたんmini iPhone得する情報整理ワザ』
-http://goo.gl/XZ6zj
-
-ーーーーーーーーーーーーーーーーーーーーーーーーー</content>
+</content>
 			</snippet>
 			<snippet>
 				<title>堅い署名</title>
@@ -115,8 +107,24 @@ http://goo.gl/XZ6zj
 		</snippets>
 	</folder>
 	<folder>
+		<title>YDB</title>
+		<snippets>
+			<snippet>
+				<title>所属FULL</title>
+				<content>株式会社 横浜DeNAベイスターズ
+コミュニケーション統括部 広報部
+クリエイティブグループ</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
 		<title>Usual</title>
 		<snippets>
+			<snippet>
+				<title>GoogelMeet招待</title>
+				<content>【Google Meet】ビデオ通話に参加するには次のリンクをクリックしてください。
+https://meet.google.com/qmd-bwdc-wed</content>
+			</snippet>
 			<snippet>
 				<title>Zoom招待</title>
 				<content>OZPA Kenichi Hasegawaのパーソナルミーティングルーム
@@ -127,34 +135,12 @@ https://dena.zoom.us/j/2686682492
 https://dena.zoom.us/wc/join/2686682492</content>
 			</snippet>
 			<snippet>
-				<title>placeholder</title>
-				<content>http://via.placeholder.com/350x150</content>
-			</snippet>
-			<snippet>
-				<title>しんやめ</title>
-				<content>ラジオネーム：ぱつお
-東京都目黒区目黒本町6-15-18-102
-080-3203-6690
-長谷川健一</content>
-			</snippet>
-			<snippet>
 				<title>Google</title>
 				<content>guqftjcnBiXoHitdUz6ngpwWQf6CY</content>
 			</snippet>
 			<snippet>
 				<title>moreタグ</title>
 				<content>&lt;!--more--&gt;</content>
-			</snippet>
-		</snippets>
-	</folder>
-	<folder>
-		<title>YDB</title>
-		<snippets>
-			<snippet>
-				<title>所属FULL</title>
-				<content>株式会社 横浜DeNAベイスターズ
-コミュニケーション統括部 広報部
-クリエイティブグループ</content>
 			</snippet>
 		</snippets>
 	</folder>
