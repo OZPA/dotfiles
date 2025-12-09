@@ -44,6 +44,10 @@ facebook:http://www.facebook.com/kenichi.hasegawa.52
 
 ーーーーーーーーーーーーーーーーーーーー</content>
 			</snippet>
+			<snippet>
+				<title>label:unread label:inbox</title>
+				<content>label:unread label:inbox</content>
+			</snippet>
 		</snippets>
 	</folder>
 	<folder>
@@ -121,11 +125,6 @@ facebook:http://www.facebook.com/kenichi.hasegawa.52
 		<title>Usual</title>
 		<snippets>
 			<snippet>
-				<title>GoogelMeet招待</title>
-				<content>【Google Meet】ビデオ通話に参加するには次のリンクをクリックしてください。
-https://meet.google.com/qmd-bwdc-wed</content>
-			</snippet>
-			<snippet>
 				<title>Zoom招待</title>
 				<content>OZPA Kenichi Hasegawaのパーソナルミーティングルーム
 
@@ -135,12 +134,13 @@ https://dena.zoom.us/j/2686682492
 https://dena.zoom.us/wc/join/2686682492</content>
 			</snippet>
 			<snippet>
-				<title>Google</title>
-				<content>guqftjcnBiXoHitdUz6ngpwWQf6CY</content>
-			</snippet>
-			<snippet>
 				<title>moreタグ</title>
 				<content>&lt;!--more--&gt;</content>
+			</snippet>
+			<snippet>
+				<title>GoogelMeet招待</title>
+				<content>【Google Meet】ビデオ通話に参加するには次のリンクをクリックしてください。
+https://meet.google.com/qmd-bwdc-wed</content>
 			</snippet>
 		</snippets>
 	</folder>
