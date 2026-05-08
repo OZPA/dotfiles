@@ -19,3 +19,11 @@ end
 balias g git
 balias nbrew nodebrew
 eval (hub alias -s)
+# Claude Code account switching
+set -gx CLAUDE_CONFIG_DIR $HOME/.claude-work
+function claude --wraps claude --description 'Default to claude-work account'
+    env CLAUDE_CONFIG_DIR=$HOME/.claude-work command claude $argv
+end
+alias claude-work='env CLAUDE_CONFIG_DIR=$HOME/.claude-work command claude'
+alias claude-personal='env CLAUDE_CONFIG_DIR=$HOME/.claude-personal command claude'
+
