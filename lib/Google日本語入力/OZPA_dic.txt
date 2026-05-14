@@ -27,3 +27,4 @@
 めーる	kenichi.hasegawa@dena.com	名詞	
 くろーど	Claude	固有名詞	
 くろこー	Claude Code	固有名詞	
+あんそろぴっく	Anthropic	固有名詞	
